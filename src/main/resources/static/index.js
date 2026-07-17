@@ -1,1 +1,2 @@
-alert("Behold user!")
+// alert("Behold user!")
+console.log("Hello user!")
