@@ -1,6 +1,11 @@
 h1{
     color:white;
     background-color: black;
+    text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     animation: rockCollapse 0.8 ease-out forwards;
+}
+h2{
+    color: black;
+    text-align: center;
 }
