@@ -2,11 +2,14 @@ body{
     margin:0px;
 }
 .navbar{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
     border-bottom: 5px;
-    border-style: solid;
-    border-color: gray;
+    border-style:solid;
+    border-color:black;
     text-align: center;
-    padding:18px;
+    padding:30px;
     font-family:"consolas";
 
 }
@@ -16,9 +19,8 @@ body{
     color:black
 }
 .navbar a:hover{
-    color:white;
-    background-color: black;
-    border-radius: 10%;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    border-radius: 6%;
 }
 
 .card{
@@ -30,9 +32,10 @@ body{
     margin-top:40px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     border-color: rgba(46, 43, 43, 0.151);
-    padding-bottom:20px
+    padding-bottom:20px;
+    margin-bottom:20px;
 }
 
 .card #image{
