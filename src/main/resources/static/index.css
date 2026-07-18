@@ -1,5 +1,6 @@
 body{
     margin:0px;
+    background-color: #0B0C10;
 }
 .navbar{
     border-top: 0px;
@@ -11,23 +12,25 @@ body{
     text-align: center;
     padding:30px;
     font-family:"consolas";
+    background-color: #1F2833;
 
 }
 .navbar a{
     text-decoration: none;
     padding:18px;
-    color:black
+    color:#66FCF1
 }
 .navbar a:hover{
-    background-image: linear-gradient(to right,black,white);
+    background-image: linear-gradient(to right,#66FCF1,white);
     background-repeat: no-repeat;
-    color:white;
+    color:black;
     border-radius: 6%;
 }
 
 .card{
     border-style:solid;
     width: 300px;
+    background-color: #66FCF1;
     overflow: hidden;
     border-radius: 6%;
     text-align: center;
