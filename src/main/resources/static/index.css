@@ -1,11 +1,51 @@
-h1{
+body{
+    margin:0px;
+}
+.navbar{
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: gray;
+    text-align: center;
+    padding:18px;
+    font-family:"consolas";
+
+}
+.navbar a{
+    text-decoration: none;
+    padding:18px;
+    color:black
+}
+.navbar a:hover{
     color:white;
     background-color: black;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    animation: rockCollapse 0.8 ease-out forwards;
+    border-radius: 10%;
 }
-h2{
-    color: black;
+
+.card{
+    border-style:solid;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 6%;
     text-align: center;
+    margin-top:40px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-color: rgba(46, 43, 43, 0.151);
+    padding-bottom:20px
+}
+
+.card #image{
+    width: 100%;
+    overflow: hidden;
+}
+.card button{
+    width:80%;
+    border-style:none;
+    padding:10px;
+    border-radius:6px;
+}
+.card button:hover{
+    color:white;
+    background-color: black;
 }
